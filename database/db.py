@@ -60,7 +60,7 @@ class Database:
         user = await self.col.find_one({'id': int(id)})
         return user.get('api_hash')
 
-db = Database(DB_URI, "TechVJDemoBot")
+db = Database(DB_URI, "DJfwdBot")
 
 # Don't Remove Credit @VJ_Bots
 # Subscribe YouTube Channel For Amazing Bot @Tech_VJ
