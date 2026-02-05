@@ -33,7 +33,7 @@ CHANNEL_ID = os.environ.get("CHANNEL_ID", "")
 # Your Mongodb Database Url
 # Warning - Give Db uri in deploy server environment variable, don't give in repo.
 DB_URI = os.environ.get("DB_URI", "") # Warning - Give Db uri in deploy server environment variable, don't give in repo.
-DB_NAME = os.environ.get("DB_NAME", "DJfwdBot)
+DB_NAME = os.environ.get("DB_NAME", "DJfwdBot")
 
 # Increase time as much as possible to avoid floodwait, spamming and tg account ban issues.
 WAITING_TIME = int(os.environ.get("WAITING_TIME", "10")) # time in seconds
